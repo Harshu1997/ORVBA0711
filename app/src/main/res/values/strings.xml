@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Roadside Vehicle asistance</string>
+    <string name="sample">sample</string>
+    <string name="sample1">sample</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="save">Save</string>
+    <string name="map_key" translatable="false">AIzaSyAAd-eSt6iRNmvtTQSK5qG2FAeClaJJLu4</string>
+    <string name="share">share</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/sample"
+            android:textColor="#070707"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mechname"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:text="@string/sample"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/service"
+                android:textColor="#000000"
+                android:text="@string/sample" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:id="@+id/available"
+            android:textColor="#000000"
+            android:text="@string/sample" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:id="@+id/addr"
+            android:textColor="#000000"
+            android:text="@string/sample" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:id="@+id/area"
+            android:textColor="#000000"
+            android:text="@string/sample" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="@string/sample"
+           android:onClick="ACTION_CALL"
+            android:clickable="true"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0ffff"/>
+
+
+</androidx.cardview.widget.CardView>
